@@ -1,0 +1,458 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FCardProtocolAPI.Command/1.0.0": {
+        "dependencies": {
+          "DoNetDrive.Protocol.Fingerprint": "2.10.0",
+          "FCardProtocolAPI.Common": "1.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "6.0.0"
+        },
+        "runtime": {
+          "FCardProtocolAPI.Command.dll": {}
+        }
+      },
+      "DoNetDrive.Common/1.16.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DoNetDrive.Common.dll": {
+            "assemblyVersion": "1.16.0.0",
+            "fileVersion": "1.16.0.0"
+          }
+        }
+      },
+      "DoNetDrive.Core/2.7.0": {
+        "dependencies": {
+          "DotNetty.Buffers": "0.7.0",
+          "DotNetty.Common": "0.7.0",
+          "DotNetty.Transport": "0.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DoNetDrive.Core.dll": {
+            "assemblyVersion": "2.7.0.0",
+            "fileVersion": "2.7.0.0"
+          }
+        }
+      },
+      "DoNetDrive.Protocol/2.3.0": {
+        "dependencies": {
+          "DoNetDrive.Common": "1.16.0",
+          "DoNetDrive.Core": "2.7.0",
+          "DoNetDrive.Protocol.Util": "1.16.0",
+          "DotNetty.Buffers": "0.7.0",
+          "DotNetty.Common": "0.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DoNetDrive.Protocol.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "DoNetDrive.Protocol.Door/2.6.0": {
+        "dependencies": {
+          "DoNetDrive.Common": "1.16.0",
+          "DoNetDrive.Core": "2.7.0",
+          "DoNetDrive.Protocol": "2.3.0",
+          "DoNetDrive.Protocol.Util": "1.16.0",
+          "DotNetty.Buffers": "0.7.0",
+          "DotNetty.Common": "0.7.0",
+          "DotNetty.Transport": "0.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DoNetDrive.Protocol.Door.dll": {
+            "assemblyVersion": "2.6.0.0",
+            "fileVersion": "2.6.0.0"
+          }
+        }
+      },
+      "DoNetDrive.Protocol.Fingerprint/2.10.0": {
+        "dependencies": {
+          "DoNetDrive.Common": "1.16.0",
+          "DoNetDrive.Core": "2.7.0",
+          "DoNetDrive.Protocol": "2.3.0",
+          "DoNetDrive.Protocol.Door": "2.6.0",
+          "DoNetDrive.Protocol.Util": "1.16.0",
+          "DotNetty.Buffers": "0.7.0",
+          "DotNetty.Common": "0.7.0",
+          "DotNetty.Transport": "0.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DoNetDrive.Protocol.Fingerprint.dll": {
+            "assemblyVersion": "2.10.0.0",
+            "fileVersion": "2.10.0.0"
+          }
+        }
+      },
+      "DoNetDrive.Protocol.Util/1.16.0": {
+        "dependencies": {
+          "DotNetty.Buffers": "0.7.0",
+          "DotNetty.Common": "0.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DoNetDrive.Protocol.Util.dll": {
+            "assemblyVersion": "1.16.0.0",
+            "fileVersion": "1.16.0.0"
+          }
+        }
+      },
+      "DotNetty.Buffers/0.7.0": {
+        "dependencies": {
+          "DotNetty.Common": "0.7.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DotNetty.Buffers.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.0.0"
+          }
+        }
+      },
+      "DotNetty.Common/0.7.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "5.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DotNetty.Common.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.0.0"
+          }
+        }
+      },
+      "DotNetty.Transport/0.7.0": {
+        "dependencies": {
+          "DotNetty.Buffers": "0.7.0",
+          "DotNetty.Common": "0.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DotNetty.Transport.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "5.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Options": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/5.0.0": {},
+      "Microsoft.Win32.SystemEvents/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "System.Drawing.Common/5.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "5.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "FCardProtocolAPI.Common/1.0.0": {
+        "dependencies": {
+          "System.Drawing.Common": "5.0.0"
+        },
+        "runtime": {
+          "FCardProtocolAPI.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FCardProtocolAPI.Command/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DoNetDrive.Common/1.16.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JqJ5fKeYZABSHB+qtLfhcCIbfcSAaS1WIocfgXHB/j5zaBYuy3IKQX61Ph/+vy4GwkbmO3izaRwN8ZR32VBlig==",
+      "path": "donetdrive.common/1.16.0",
+      "hashPath": "donetdrive.common.1.16.0.nupkg.sha512"
+    },
+    "DoNetDrive.Core/2.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pNNVQEBJTDqj1FaXU7EKtFH99b+9uapTl1FkwZoXCsTTJncTgviQWQc9BNZtDztsF5LGcmdMAhYaU9C/OWBiAQ==",
+      "path": "donetdrive.core/2.7.0",
+      "hashPath": "donetdrive.core.2.7.0.nupkg.sha512"
+    },
+    "DoNetDrive.Protocol/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-riFQZgdzOFrkDzsJZZvmVrUCJHYwpZFpSFvCwDO2lW0Zv2fuCKkSBS3+vi1C/YRuWqfLWUfGK/tuaMzFZizHlg==",
+      "path": "donetdrive.protocol/2.3.0",
+      "hashPath": "donetdrive.protocol.2.3.0.nupkg.sha512"
+    },
+    "DoNetDrive.Protocol.Door/2.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yUNxS0yUclvuvnty4IJLJmJ8USuYEgrVEHEY2/fJJnpayUXv5wEGtAGIvRf9jVRygFLiCI1SdrSCudEY+M6zkA==",
+      "path": "donetdrive.protocol.door/2.6.0",
+      "hashPath": "donetdrive.protocol.door.2.6.0.nupkg.sha512"
+    },
+    "DoNetDrive.Protocol.Fingerprint/2.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G7FWOddoC1tTzW8qJZcN7i9wrggjxxMQyR8nhR/3U1uuSvWDPlKn2YNEyJ2kPLECvu6GRPP+k2ty/ZPbfr6LKg==",
+      "path": "donetdrive.protocol.fingerprint/2.10.0",
+      "hashPath": "donetdrive.protocol.fingerprint.2.10.0.nupkg.sha512"
+    },
+    "DoNetDrive.Protocol.Util/1.16.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NK+/CC5VmwGyLXqpFoa8VYZa9y0GHfzKxIyFOtF8mUOyLo/okO5O9Eoax7Y6FM53oMWSJiLO/KIwPYOm28rmkA==",
+      "path": "donetdrive.protocol.util/1.16.0",
+      "hashPath": "donetdrive.protocol.util.1.16.0.nupkg.sha512"
+    },
+    "DotNetty.Buffers/0.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p32YJtFdyTdCo9V6+QhCTpKCmsoWqzHlBoXhSdLE9Q5CVV+/sP7sm3heWerr2SkGPnoYCZ1N9kbCNPbBMJ4RsQ==",
+      "path": "dotnetty.buffers/0.7.0",
+      "hashPath": "dotnetty.buffers.0.7.0.nupkg.sha512"
+    },
+    "DotNetty.Common/0.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WRAUucHVaJNpWkQZKZa2a/6e4U9jRZgbqOZt5ijxDs4qDlUifbXcklWb0jTI2+Qtc1eL+RfiRobrzzDvsfetDQ==",
+      "path": "dotnetty.common/0.7.0",
+      "hashPath": "dotnetty.common.0.7.0.nupkg.sha512"
+    },
+    "DotNetty.Transport/0.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0wn64e3ldQgznsHxgsNsuVVktfkEsNUBzIn43Acst4o07w2zmmIboDNf6/tyMdC6EJRRasrzVJ4lIwI+C1hPGA==",
+      "path": "dotnetty.transport/0.7.0",
+      "hashPath": "dotnetty.transport.0.7.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qWzV9o+ZRWq+pGm+1dF+R7qTgTYoXvbyowRoBxQJGfqTpqDun2eteerjRQhq5PQ/14S+lqto3Ft4gYaRyl4rdQ==",
+      "path": "microsoft.extensions.configuration.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Binder/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b3ErKzND8LIC7o08QAVlKfaEIYEvLJbtmVbFZVBRXeu9YkKfSSzLZfR1SUfQPBIy9mKLhEtJgGYImkcMNaKE0A==",
+      "path": "microsoft.extensions.configuration.binder/6.0.0",
+      "hashPath": "microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rc2kb/p3Ze6cP6rhFC3PJRdWGbLvSHZc0ev7YlyeU6FmHciDMLrhoVoTUEzKPhN5ZjFgKF1Cf5fOz8mCMIkvpA==",
+      "path": "microsoft.extensions.dependencyinjection/5.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ORj7Zh81gC69TyvmcUm9tSzytcy8AVousi+IVRAI8nLieQjOFryRusSFh7+aLk16FN9pQNqJAiMd7BTKINK0kA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MgOwK6tPzB6YNH21wssJcw/2MKwee8b2gI7SllYfn6rvTpIrVvVS5HAjSU2vqSku1fwqRvWP0MdIi14qjd93Aw==",
+      "path": "microsoft.extensions.logging/5.0.0",
+      "hashPath": "microsoft.extensions.logging.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NxP6ahFcBnnSfwNBi2KH2Oz8Xl5Sm2krjId/jRR3I7teFphwiUoUeZPwTNA21EX+5PtjqmyAvKaOeBXcJjcH/w==",
+      "path": "microsoft.extensions.logging.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CBvR92TCJ5uBIdd9/HzDSrxYak+0W/3+yxrNg8Qm6Bmrkh5L+nu6m3WeazQehcZ5q1/6dDA7J5YdQjim0165zg==",
+      "path": "microsoft.extensions.options/5.0.0",
+      "hashPath": "microsoft.extensions.options.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
+      "path": "microsoft.extensions.primitives/6.0.0",
+      "hashPath": "microsoft.extensions.primitives.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
+      "path": "microsoft.netcore.platforms/5.0.0",
+      "hashPath": "microsoft.netcore.platforms.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Bh6blKG8VAKvXiLe2L+sEsn62nc1Ij34MrNxepD2OCrS5cpCwQa9MeLyhVQPQ/R4Wlzwuy6wMK8hLb11QPDRsQ==",
+      "path": "microsoft.win32.systemevents/5.0.0",
+      "hashPath": "microsoft.win32.systemevents.5.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "System.Drawing.Common/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SztFwAnpfKC8+sEKXAFxCBWhKQaEd97EiOL7oZJZP56zbqnLpmxACWA8aGseaUExciuEAUuR9dY8f7HkTRAdnw==",
+      "path": "system.drawing.common/5.0.0",
+      "hashPath": "system.drawing.common.5.0.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "FCardProtocolAPI.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

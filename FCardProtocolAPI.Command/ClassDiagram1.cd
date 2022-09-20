@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FCardProtocolAPI.Command.Door8900HCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAAAIABCAAAAAAAAAAAABAAAEAgAQAAAEAAAAAAAAAA=</HashCode>
+      <FileName>实现\Door8900HCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FCardProtocolAPI.Command.FcardCommandParameter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACgAAAABAAACAAAABIAAAEAAAAAKAA=</HashCode>
+      <FileName>实现\FcardCommandParameter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FCardProtocolAPI.Command.FcardCommandResult" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAAAIAAAAAA=</HashCode>
+      <FileName>实现\FcardCommandResult.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FCardProtocolAPI.Command.FingerprintCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQABCAEAAIAAAAAAABAAARAAAQAIAEQAIAAgAAEA=</HashCode>
+      <FileName>实现\FingerprintCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FCardProtocolAPI.Command.CommandAllocator" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAoAAACQBACQABBRAAAAIwAAEAgKgAEGCCAAAAGA=</HashCode>
+      <FileName>CommandAllocator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FCardProtocolAPI.Command.Models.AddCardModel" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AddCardModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FCardProtocolAPI.Command.Models.CardModel" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAACAAAAAAAAKAAABIAAAAAA=</HashCode>
+      <FileName>Models\CardModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FCardProtocolAPI.Command.Models.CardRecord" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAASAAAAAAAAAABAAAAAAAAAAAEAAIAAAABAEAAAA=</HashCode>
+      <FileName>Models\CardRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FCardProtocolAPI.Command.Models.DevicesInfo" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAKAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\DevicesInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FCardProtocolAPI.Command.Models.FileDevicesInfo" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\DevicesInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FCardProtocolAPI.Command.Models.DoorsModel" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAIBAAAAAAEAAAAAAACAAA=</HashCode>
+      <FileName>Models\DoorsModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FCardProtocolAPI.Command.Models.FaceTransaction" Collapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAQAAAAAAACAABAAAAAAAAAAAEAAJAAAABAEAAAA=</HashCode>
+      <FileName>Models\FaceTransaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FCardProtocolAPI.Command.Models.PersonModel" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAACAIAMAgkiAAgABAAAoBAAAA=</HashCode>
+      <FileName>Models\PersonModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FCardProtocolAPI.Command.Models.TransactionAndImage" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAggAAAAA=</HashCode>
+      <FileName>Models\TransactionAndImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FCardProtocolAPI.Command.Models.WorkParameter" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAACAAAAACAAAAAAAQAAAAAAEAQAAIACAAAAQA=</HashCode>
+      <FileName>Models\WorkParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="FCardProtocolAPI.Command.IDoor8900HCommand" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAAIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>接口\IDoor8900HCommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FCardProtocolAPI.Command.IFcardCommand" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABCAAAAAAAAAAAABAAAAAAAQAAAEAAAAAAAAAA=</HashCode>
+      <FileName>接口\IFcardCommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FCardProtocolAPI.Command.IFcardCommandParameter" Collapsed="true">
+    <Position X="11" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACgAAAABAAACAAAABIAAAEAAAAAKAA=</HashCode>
+      <FileName>接口\IFcardCommandParameter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FCardProtocolAPI.Command.IFcardCommandResult" Collapsed="true">
+    <Position X="12.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAAAIAAAAAA=</HashCode>
+      <FileName>接口\IFcardCommandResult.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FCardProtocolAPI.Command.IFingerprintCommand" Collapsed="true">
+    <Position X="8" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAIAAAAAAAAAAABAAAAAAAAAAAAAgAAEA=</HashCode>
+      <FileName>接口\IFingerprintCommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="FCardProtocolAPI.Command.CommandStatus" Collapsed="true">
+    <Position X="11" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAFAAAEAAIAAgAAAAAAAAAAA=</HashCode>
+      <FileName>CommandStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "PYEh51npmmNI02lpgKTjFyUHwJH2aK84trzKR5qvvQh35hy8bCXTgYYhbfc25z1fuX46cd6jNL2yDop51OvqQQ==",
+  "success": true,
+  "projectFilePath": "D:\\projects\\FCardProtocolAPI\\FCardProtocolAPI.Common\\FCardProtocolAPI.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SERVER\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\SERVER\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\SERVER\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

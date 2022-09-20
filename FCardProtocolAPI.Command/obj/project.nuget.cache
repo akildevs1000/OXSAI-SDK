@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "iTmkSfwQcS4FAUvuqH6V6OUGsd3FpvQ/LYLww3/tbDuasJKw8bEnz2whGwafIrAsztg+FTN7Gt6LjF92YBFIxQ==",
+  "success": true,
+  "projectFilePath": "D:\\projects\\FCardProtocolAPI\\FCardProtocolAPI.Command\\FCardProtocolAPI.Command.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SERVER\\.nuget\\packages\\donetdrive.common\\1.16.0\\donetdrive.common.1.16.0.nupkg.sha512",
+    "C:\\Users\\SERVER\\.nuget\\packages\\donetdrive.core\\2.7.0\\donetdrive.core.2.7.0.nupkg.sha512",
+    "C:\\Users\\SERVER\\.nuget\\packages\\donetdrive.protocol\\2.3.0\\donetdrive.protocol.2.3.0.nupkg.sha512",
+    "C:\\Users\\SERVER\\.nuget\\packages\\donetdrive.protocol.door\\2.6.0\\donetdrive.protocol.door.2.6.0.nupkg.sha512",
+    "C:\\Users\\SERVER\\.nuget\\packages\\donetdrive.protocol.fingerprint\\2.10.0\\donetdrive.protocol.fingerprint.2.10.0.nupkg.sha512",
+    "C:\\Users\\SERVER\\.nuget\\packages\\donetdrive.protocol.util\\1.16.0\\donetdrive.protocol.util.1.16.0.nupkg.sha512",
+    "C:\\Users\\SERVER\\.nuget\\packages\\dotnetty.buffers\\0.7.0\\dotnetty.buffers.0.7.0.nupkg.sha512",
+    "C:\\Users\\SERVER\\.nuget\\packages\\dotnetty.common\\0.7.0\\dotnetty.common.0.7.0.nupkg.sha512",
+    "C:\\Users\\SERVER\\.nuget\\packages\\dotnetty.transport\\0.7.0\\dotnetty.transport.0.7.0.nupkg.sha512",
+    "C:\\Users\\SERVER\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\SERVER\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
+    "C:\\Users\\SERVER\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\SERVER\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\SERVER\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\SERVER\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\SERVER\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\SERVER\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\SERVER\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\SERVER\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\SERVER\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\SERVER\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",
+    "C:\\Users\\SERVER\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+C:\Users\SERVER\Downloads\FCardProtocolAPI\FCardProtocolAPI.Common\bin\Release\net6.0\FCardProtocolAPI.Common.deps.json
+C:\Users\SERVER\Downloads\FCardProtocolAPI\FCardProtocolAPI.Common\bin\Release\net6.0\FCardProtocolAPI.Common.dll
+C:\Users\SERVER\Downloads\FCardProtocolAPI\FCardProtocolAPI.Common\bin\Release\net6.0\FCardProtocolAPI.Common.pdb
+C:\Users\SERVER\Downloads\FCardProtocolAPI\FCardProtocolAPI.Common\obj\Release\net6.0\FCardProtocolAPI.Common.csproj.AssemblyReference.cache
+C:\Users\SERVER\Downloads\FCardProtocolAPI\FCardProtocolAPI.Common\obj\Release\net6.0\FCardProtocolAPI.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SERVER\Downloads\FCardProtocolAPI\FCardProtocolAPI.Common\obj\Release\net6.0\FCardProtocolAPI.Common.AssemblyInfoInputs.cache
+C:\Users\SERVER\Downloads\FCardProtocolAPI\FCardProtocolAPI.Common\obj\Release\net6.0\FCardProtocolAPI.Common.AssemblyInfo.cs
+C:\Users\SERVER\Downloads\FCardProtocolAPI\FCardProtocolAPI.Common\obj\Release\net6.0\FCardProtocolAPI.Common.csproj.CoreCompileInputs.cache
+C:\Users\SERVER\Downloads\FCardProtocolAPI\FCardProtocolAPI.Common\obj\Release\net6.0\FCardProtocolAPI.Common.dll
+C:\Users\SERVER\Downloads\FCardProtocolAPI\FCardProtocolAPI.Common\obj\Release\net6.0\refint\FCardProtocolAPI.Common.dll
+C:\Users\SERVER\Downloads\FCardProtocolAPI\FCardProtocolAPI.Common\obj\Release\net6.0\FCardProtocolAPI.Common.pdb
+C:\Users\SERVER\Downloads\FCardProtocolAPI\FCardProtocolAPI.Common\obj\Release\net6.0\ref\FCardProtocolAPI.Common.dll
